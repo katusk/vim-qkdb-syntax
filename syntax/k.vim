@@ -526,32 +526,32 @@ syn match kCast /"\a"\$/
 
 if !exists("did_k_syntax_inits")
  let did_k_syntax_inits = 1
- hi link kBoolean Number
+ hi link kBoolean Boolean
  hi link kCast Type
  hi link kComment Comment
  hi link kConditional Conditional
  hi link kContext Directory
  hi link kError Error
  hi link kExit WarningMsg
- hi link kFunction Statement
+ hi link kFunction Function
  hi link kGlobal Constant
  hi link kHandle TabLineSel
- hi link kIdentifier Identifier
+ hi link kIdentifier Normal
  hi link kLang Pmenu
  hi link kNumber Number
  hi link kOperator Operator
- hi link kPlaceholder Special
- hi link kPreproc kCast
- hi link kPrimitive kFunction
- hi link kRepeat kConditional
- hi link kSeparator Separator
+ hi link kPlaceholder Normal
+ hi link kPreproc PreProc
+ hi link kPrimitive Type
+ hi link kRepeat Repeat
+ hi link kSeparator Normal
  hi link kSpecial Special
  hi link kSpecialChar SpecialChar
- hi link kSpecialComment SpecialComment
+ hi link kSpecialComment Comment
  hi link kString String
  hi link kSyscmd PmenuSel
- hi link kSymbol Typedef
- hi link kTodo ColorColumn
+ hi link kSymbol Constant
+ hi link kTodo Todo
  hi link qLib Special
  endif
 
