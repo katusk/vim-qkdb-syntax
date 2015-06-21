@@ -534,7 +534,7 @@ if !exists("did_k_syntax_inits")
  hi link kError Error
  hi link kExit WarningMsg
  hi link kFunction Function
- hi link kGlobal Constant
+ hi link kGlobal Macro
  hi link kHandle TabLineSel
  hi link kIdentifier Normal
  hi link kLang Pmenu
