@@ -7,11 +7,11 @@ This repository contains slightly modified variants of the [syntax highlighting 
 
 _Why another variant?_ I did not like the highlight link to-group target colors in the original one, especially with the solarized-dark colorscheme.
 
-For example, I almost exclusively use `//` to begin line comments in q, not with any particular special meaning or emphasis, just to keep compatibility of other editors' C-like syntax highlighting schemes, that may lack syntax highlighting for q. Originally, target color for the `kSpecialComment` group was `SpecialComment`, which translates to a strong red color in case of solarized-dark. Now it is simply `Comment`, which is the expected neutral grey color. I have also missed solarized-dark's golden yellow color, so I mapped the `kPrimitive` group to `Type`. See the `hi link` commands for all these minor target-group tweaks.
+For example, I almost exclusively use `//` to begin line comments in q, not with any particular special meaning or emphasis, just to keep compatibility with other editors' C-like syntax highlighting schemes lacking syntax highlighting for q. Originally, target color for the `kSpecialComment` group covering line comments starting with `//` was `SpecialComment`, which translates to a strong red color in case of solarized-dark. Now it is simply `Comment`, which is the expected-by-me neutral grey color. I have also missed solarized-dark's golden yellow color, so I mapped the `kPrimitive` group to `Type`. See the `hi link` commands for all these minor target-group tweaks.
 
-The following is an excerpt from the original `readme.txt` by Simon Garland.
+_Installation without a plugin manager._ The following is an excerpt from the original `readme.txt` by Simon Garland.
 
-> Copy the files [..] to your vim home directory (probably $HOME/.vim).
+> Copy the files [...] to your vim home directory (probably $HOME/.vim).
 > 
 > If you already have a filetype.vim then just insert the additional k & q lines.
 > 
