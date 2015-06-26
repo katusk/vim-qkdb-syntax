@@ -19,7 +19,7 @@ if main_syntax == 'k'
  endif
 endif
 
-setlocal comments=:/,://
+setlocal comments=://,:/
 
 " exclude _ in names for k
 syn case match
