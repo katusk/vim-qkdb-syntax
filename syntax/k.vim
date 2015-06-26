@@ -542,7 +542,7 @@ if !exists("did_k_syntax_inits")
  hi link kOperator Operator
  hi link kPlaceholder Normal
  hi link kPreproc PreProc
- hi link kPrimitive Type
+ hi link kPrimitive kFunction
  hi link kRepeat Repeat
  hi link kSeparator Normal
  hi link kSpecial Special
