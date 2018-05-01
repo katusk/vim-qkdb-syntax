@@ -10,9 +10,11 @@ Yet another vim syntax highlighting for kdb+, forked from
 There is additional inspiration from [qvim](https://github.com/patmok/qvim) by
 [patmok](https://github.com/patmok).
 
-This repo adds:
-- Special highlighting for query keywords, `select`,
- `update`, `upsert`, `insert`, `exec`, `delete`, `by` and `from`.
+This repo adds special highlighting for:
+- Query keywords, `select`, `update`, `upsert`, `insert`, `exec`, `delete`,
+ `by` and `from`.
+- Local single and double letter variables, e.g. `x`, `y`, `z`, `d`, `t`, `xx`,
+`yy`, `zz` (but exclude built in keywords like `aj` and `lj`).
 
 ## Installation
 Copy [`.vimrc`](.vimrc) to `$HOME/.vimrc` if you don't have one already, or
