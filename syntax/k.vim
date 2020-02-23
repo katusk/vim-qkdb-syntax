@@ -506,7 +506,7 @@ syn match kError "^k)"
 
 " symbols and specialcase file+connection handles
 syn match kSymbol "\(`\<[a-zA-Z0-9\.][a-zA-Z0-9_\.]*\>\)"
-syn match kHandle "\`:\{1,2}\([0-9a-zA-Z\\/.]\+:\=\)\{1,4}"
+syn match kHandle "\`:\{1,2}\([0-9a-zA-Z_\\/.]\+:\=\)\{1,4}"
 
 " attributes `p#, `g#, `s# and `u#
 syn match kPreproc /`[spgu]#/
