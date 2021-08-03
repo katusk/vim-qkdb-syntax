@@ -25,6 +25,8 @@ syn match qPlaceholder "\<[xyz]\>"
 " functions in .q namespace as q primitives
 syn keyword qFunction aj
 syn keyword qFunction aj0
+syn keyword qFunction ajf
+syn keyword qFunction ajf0
 syn keyword qFunction all
 syn keyword qFunction and
 syn keyword qFunction any
